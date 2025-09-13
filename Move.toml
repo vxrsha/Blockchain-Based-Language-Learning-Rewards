@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-language-learning-rewards"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xca6d7b8ed4d9d9c509f2f954086465804aa44d950fd9542b0f6851f53ef330b6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
